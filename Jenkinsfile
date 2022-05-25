@@ -9,7 +9,7 @@ pipeline {
                 label 'SonarQube on AWS'
             }
             steps {
-                git 'https://github.com/shashank-ssriva/Hello-World-DevOps-Training.git'
+                git 'https://github.com/SwetankRawat/Hello-World-DevOps-Training.git'
             }
         }
         stage('SonarQube Analysis') {
